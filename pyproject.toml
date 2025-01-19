@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "save-shawn"
+version = "0.1.0"
+description = "Video OCR and translation tool"
+requires-python = ">=3.8"
+authors = [
+    {name = "Your Name"}
+]
+dependencies = [
+    "youtube_dl==2021.12.17",
+    "pytesseract==0.3.13",
+    "opencv-python==4.8.1.78",
+    "openai==1.3.5",
+    "python-dotenv==1.0.0",
+    "Pillow==10.1.0",
+]
+
+[tool.setuptools]
+packages = ["save-shawn"]

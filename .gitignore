@@ -1,0 +1,7 @@
+*.mp4
+.env
+*.swp
+*/*.swp
+*/*.swo
+assets/
+translations.json
